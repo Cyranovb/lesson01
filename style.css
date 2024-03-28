@@ -1,7 +1,14 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0 20%;
+    padding: 0;
+    background-color: #f0f0f0; 
+}
+
+header {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0;
 }
 
 .title {
@@ -21,7 +28,12 @@ body {
 
 .menu li a {
     text-decoration: none;
-    color: black;
+    color: #fff;
+    font-weight: bold;
+}
+
+.menu li a:hover {
+    color: #ffd700; 
 }
 
 .image-container {
@@ -29,15 +41,21 @@ body {
     margin-top: 20px;
 }
 
-.footer-content {
-    text-align: center;
-    margin-top: 20px;
-    color: dimgray;
+footer {
+    background-color: #333; 
+    color: #fff;
+    padding: 20px 0;
 }
 
-.main-footer {
-    background-color: #828280;
-    padding: 30px;
+.footer-content {
     text-align: center;
-    color: #777;
+}
+
+.footer-content a {
+    color: #ffd700; 
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline; 
 }
